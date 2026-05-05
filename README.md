@@ -4,8 +4,6 @@
 
 A lightweight userscript that adds an **Edit** button below existing actions in Vinted member feed grid items.
 
----
-
 ## Features
 
 - Adds an **Edit** button to Vinted feed grid items
@@ -13,8 +11,6 @@ A lightweight userscript that adds an **Edit** button below existing actions in 
 - Works on dynamically loaded feed content
 - Client-side only, no external dependencies
 - Compatible with Chrome, Firefox, Opera, Safari, and Edge
-
----
 
 ## How It Works
 
@@ -27,8 +23,6 @@ The script:
 5. Watches for new items as Vinted loads content dynamically
 
 The label is resolved from browser locale signals such as `navigator.languages`, `navigator.language`, and page language, with English as fallback.
-
----
 
 ## Installation
 
@@ -60,8 +54,6 @@ Or install manually:
 5. AdGuard downloads and manages script automatically.
 6. Refresh Vinted to activate it.
 
----
-
-## Contribute
+## Contributing
 
 Pull requests welcome. If Vinted changes its layout again or you can help improve selector coverage or locale support, open an issue with an HTML snippet showing the updated card structure so selectors can be updated quickly.
